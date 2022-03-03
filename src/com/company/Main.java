@@ -20,8 +20,9 @@ public class Main {
                 if (counter % 2 == 0) {
                     jupnum.add(counter);
                 }
+                System.out.print(counter + " ");
             }
-
+        System.out.println();
         System.out.println("Odd number: " + taknum);
         System.out.println("An even number: " + jupnum);
 
